@@ -3,7 +3,8 @@ var webpack = require("webpack");
 
 module.exports = {
   entry: {
-    app: './src/javascripts/index.js'
+    app: './src/javascripts/index.js',
+    day1: './src/javascripts/entry/day1.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -19,8 +20,12 @@ module.exports = {
       test: /\.css$/,
       loader: "style!css"
     }, {
-      test: /\.woff$/,
-      loader: 'url-loader?prefix=font/&limit=5000'
+      test: /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)(\?.*)?$/,
+      exclude: /\/favicon.ico$/,
+      loader: 'file',
+      query: {
+        name: 'static/media/[name].[hash:8].[ext]'
+      }
     }, ]
   }
 };
