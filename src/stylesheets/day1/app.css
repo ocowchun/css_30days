@@ -1,0 +1,118 @@
+body{
+  font-size: 16px;
+}
+nav.navbar-default{
+  border-radius: 0px;
+  border: 0px ;
+  border-bottom: 1px solid #C2D8D9;
+}
+
+nav.navbar-default .navbar-brand{
+  color: white;
+}
+
+nav.navbar{
+  background-color: #3AC9D6;
+}
+
+nav.navbar-default a.menu{
+  color: #90E0E8
+}
+
+nav.navbar form{
+  padding-left: 0px;
+}
+
+nav .search input{
+  background-color: #75D9E2;
+  border: 1px solid #75D9E2;
+  border-right-color: #75D9E2;
+  border-radius: 0px;
+  color: white;
+}
+
+nav .search button{
+  background-color: #75D9E2;
+  border: 0px ;
+  border-radius: 0px;
+  color: white;
+}
+
+nav .search .input-group-btn{
+  border: 1px solid #75D9E2;
+}
+
+/*
+menu
+*/
+.menu_bar{
+  padding: 0px;
+  border-right: 2px solid #EDEDED;
+}
+
+.menu ul{
+  padding-left: 0px;
+}
+
+.menu li{
+  display: block;
+  font-size: 18px;
+}
+
+
+.menu a{
+  color: #43484F;
+}
+
+li.menu_sub_header{
+  margin-left: 10px;
+  font-size: 16px;
+
+}
+
+li.menu_item{
+  padding: 10px;
+}
+
+li.menu_item a{
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+li.menu_item.active{
+  background-color: #F2F2F2;
+}
+
+span.add{
+  position: absolute;
+  right: 0;
+}
+
+span.badge{
+  position: absolute;
+  right: 0;
+}
+
+.menu_item span{
+  padding-right: 10px;
+}
+
+.menu_item span.no-icon{
+  padding-right: 28px;
+}
+
+.menu_item .badge{
+  background-color: #41D092;
+}
+
+.menu_item .badge.new{
+  background-color: #F4757F;
+}
+
+/*
+dashboard body
+*/
+.dashboard-body{
+  background-color: #F3F3F3;
+}
