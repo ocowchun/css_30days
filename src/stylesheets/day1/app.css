@@ -9,6 +9,7 @@ nav.navbar-default{
   border-radius: 0px;
   border: 0px ;
   border-bottom: 1px solid #C2D8D9;
+  margin-bottom: 0px;
 }
 
 nav.navbar-default .navbar-brand{
@@ -165,4 +166,24 @@ dashboard body
 */
 .dashboard-body{
   background-color: #F3F3F3;
+}
+
+/*
+breadcrumbs
+*/
+
+.breadcrumbs{
+  background-color: #FFFFFF;
+  font-size: 20px;
+  box-shadow: 1px 3px 0px #DBDBDB;
+  padding: 12px;
+}
+
+.dashboard-body .breadcrumb{
+  display: inline;
+  float: right;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  padding: 0px;
+  margin-bottom: 0px;
 }
