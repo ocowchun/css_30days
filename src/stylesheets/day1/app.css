@@ -203,22 +203,43 @@ number-card
 .number-card{
   background-color: #FFFFFF;
   text-align: center;
+  margin: 20px 0px;
+  padding: 0px;
+  box-shadow: 1px 1px 5px #DEDEDE;
 }
 
 .red{
   color: #F37E87;
 }
 
+.black{
+  color: #424549;
+}
+
+.green{
+  color: #67D6A5;
+}
+
+.yellow{
+  color: #F8C551;
+}
+
+.blue{
+  color: #3B9AE6;
+}
+
 .metric{
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .number-card .title{
-  font-size: 20px;
+  padding-top: 12px;
+  font-size: 16px;
   color: #9B9999;
 }
 
 .number-card .last{
-  font-size: 16px;
+  font-size: 14px;
   color: #CDCECF;
+  padding-bottom: 12px;
 }
