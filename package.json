@@ -19,5 +19,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }
