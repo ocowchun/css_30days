@@ -14,6 +14,15 @@ nav.navbar-default{
 
 nav.navbar-default .navbar-brand{
   color: white;
+/*  padding-right:  80px;
+padding-left:  80px;*/
+
+}
+
+.navbar-header a{
+  text-align: center;
+  float:  none;
+  display: block;
 }
 
 nav.navbar{
@@ -125,7 +134,7 @@ li.menu_item{
   padding: 10px;
 }
 
-li.menu_item a{
+li.menu a{
   width: 100%;
   display: block;
   position: relative;
@@ -186,4 +195,30 @@ breadcrumbs
   background-color: #FFFFFF;
   padding: 0px;
   margin-bottom: 0px;
+}
+
+/*
+number-card
+*/
+.number-card{
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.red{
+  color: #F37E87;
+}
+
+.metric{
+  font-size: 24px;
+}
+
+.number-card .title{
+  font-size: 20px;
+  color: #9B9999;
+}
+
+.number-card .last{
+  font-size: 16px;
+  color: #CDCECF;
 }
