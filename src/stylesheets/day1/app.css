@@ -243,3 +243,36 @@ number-card
   color: #CDCECF;
   padding-bottom: 12px;
 }
+
+/*
+TABLE
+*/
+.table-card{
+  background-color: #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.table-title{
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ background-color: #3AC9D6;
+ color: #FFFFFF;
+ padding: 10px;
+ padding-left: 15px;
+}
+
+table .avatar{
+ height: 31px;
+ border-radius: 50%;
+}
+
+
+thead th{
+  border-bottom: 2px solid #ECECEC;
+}
+
+.table-card th{
+  padding-right: 80px;
+
+}
